@@ -16,7 +16,7 @@ class CallbackAgent:
 				"ansible_report": message,
 				"ansible_status": status
 			}
-		elif self.type=='service':
+		elif self.type=='plusclouds':
 			body = {
 				"service_report": message,
 				"service_status": status

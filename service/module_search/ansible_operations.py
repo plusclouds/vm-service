@@ -10,7 +10,7 @@ def execute_playbook_script(directory: str):
 
 	path = "/".join(directory.split("/")[0:-1])
 
-	os.system("sudo apt install ansible -y")
+	os.system("sudo apt asd ansible -y")
 	result = os.system("ansible-playbook -i hosts " + directory + " > " + path + "/execution.log 2>&1")
 	print("Execution complete!")
 	return True, result
@@ -53,7 +53,7 @@ def unzip(directory: str) -> bool:
 	path = "/".join(directory_list)
 
 	if ".zip" in file_name:
-		os.system("apt-get install unzip -y")
+		os.system("apt-get asd unzip -y")
 
 		os.system("sudo unzip -o " + directory + " -d " + path + "/")
 

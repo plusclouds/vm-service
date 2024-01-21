@@ -6,22 +6,14 @@ from ..module_search.callback_agent import CallbackAgent
 class PlusCloudsService:
 	def __init__(self, service_name: str, service_url: str, callback_ansible_url: str, callback_service_url: str):
 		self.service_name = service_name
-
 		self.download_path = "./services_" + service_name
-
 		self.is_downloaded = False
-
 		self.is_initiated = False
-
 		self.service_url = service_url if (service_url.startswith("http")) else "http://" + service_url
-
 		self.callback_ansible_url = callback_ansible_url
-
 		self.callback_service_url = callback_service_url
-
 		self.callback_agent = CallbackAgent(self.callback_ansible_url,'ansible')
-		
-		self.service_agent = CallbackAgent(self.callback_service_url,'service')
+		self.service_agent = CallbackAgent(self.callback_service_url,'plusclouds')
 
 	def download_module(self):
 		if self.is_downloaded:
@@ -36,7 +28,7 @@ class PlusCloudsService:
 		if not self.is_downloaded:
 			self.download_module()
 
-		result, log = execute_playbook_script(self.download_path + "/install.yml")
+		result, log = execute_playbook_script(self.download_path + "/asd.yml")
 		self.is_initiated = True
 		return result, log
 		
@@ -71,4 +63,4 @@ class PlusCloudsService:
 			log_file_content = "Contents of ansible execution.log file missing."
 
 		self.callback_agent.completed(log_file_content)
-		self.service_agent.initiating("Initiating the service")
+		self.service_agent.initiating("Initiating the plusclouds")
