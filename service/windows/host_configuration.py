@@ -1,9 +1,11 @@
 import subprocess as sp
-from hashlib import sha256
+from log.initialize import initialize_logger
+
+logger = initialize_logger()
 
 def update_hostname(metadata):
     logger.info(" ------  Hostname Check  ------")
-    hostname = metadata['data']['hostname']
+    hostname = metadata['hostname']
     current_hostname = sp.check_output(
         'hostname').decode().split('\n')[0].strip()
     hostname = hostname if len(hostname) <= 15 else hostname[0:15]
@@ -48,7 +50,7 @@ def is_winrm_set():
 
     winrm_api_status = False
     if 'winrm_enabled' in metadata['data']:
-        winrm_api_status = metadata['data']['winrm_enabled']
+        winrm_api_status = metadata['winrm_enabled']
     is_winrm_running = True if sp.check_output(
         'powershell.exe Get-Service winrm').decode("utf-8").split()[6].lower() == "running" else False
 

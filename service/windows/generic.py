@@ -6,7 +6,7 @@ from service.windows.disk.manage_disk import update_disk
 def start(metadata):
     # Updating password
     update_password(metadata)
-    # Updateing hostname
+    # Updating hostname
     update_hostname(metadata)
     # Updating disks
     update_disk(metadata)

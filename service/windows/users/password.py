@@ -1,12 +1,12 @@
+import subprocess as sp
 from api.metadata import *
 from log.initialize import initialize_logger
 
 logger = initialize_logger()
 
 def update_password(metadata):
-    password = metadata['data']['password']
-    hashed_password = sha256(password.encode()).hexdigest()
     logger.info("-- Update password starts --")
+    password = metadata['password']
     isChanged = True
     if isChanged == True:
         logger.info("Executing password change call.")
