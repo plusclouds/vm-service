@@ -11,6 +11,7 @@ base_url = os.getenv('LEO_URL', "http://api.plusclouds.com/v2")
 api_uris = [
 	os.getenv('LEO_URL'),
 	"https://api4.plusclouds.com/",
+	"https://api.plusclouds.com/v3",
 	"https://10.0.0.1:60000/v2",
 	"https://api.bivabu.com/v2",
 	"https://api.plusclouds.com/v2"
