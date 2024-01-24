@@ -517,3 +517,82 @@ ERROR   38 => <Response [404]>
 ERROR   38 => <Response [404]> 
 ERROR   38 => <Response [404]> 
 ERROR   38 => <Response [404]> 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 13:13:12 2024  ============= 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   34 => Could not get response from https://api4.plusclouds.com/, continuing 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   34 => Could not get response from https://10.0.0.1:60000/v2, continuing 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   38 => I think we cannot retrieve the metadata, result is below 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+ERROR   39 => <Response [404]> 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 
+INFO    8 => ============== Starting leo service at Wed Jan 24 21:53:15 2024  ============= 

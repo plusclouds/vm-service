@@ -1,0 +1,23 @@
+name: Build application and store it on the deployment service
+on:
+  push:
+    tags:
+      - 'v*'
+jobs:
+  build:
+    env:
+      ACTIONS_STEP_DEBUG: true
+      COMPOSER_HOME: ~/.composer
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 10
+      - name: Get tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          # Optionally strip `v` prefix
+          strip_v: true
+      - name: Pack the application
+        run: tar -cf ~/vm-service.${{steps.tag.outputs.tag}}.tar.gz .
