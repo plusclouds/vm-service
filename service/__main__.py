@@ -4,12 +4,13 @@ from api.metadata import get_metadata
 from log.initialize import *
 
 logger = initialize_logger()
-#uuid = get_uuid()
-uuid = '97136816-d27e-63ed-17ba-acc64438ef4f'
-metadata = get_metadata(uuid)
 
 logger.info("============== Starting leo service at {}  =============".format(
     time.asctime()))
+
+#uuid = get_uuid()
+uuid = '97136816-d27e-63ed-17ba-acc64438ef4f'
+metadata = get_metadata(uuid)
 
 logger.info("Got metadata like below;")
 logger.info("{}", metadata)
