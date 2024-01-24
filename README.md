@@ -14,13 +14,13 @@ If the client make any change in the dashboard about the configurations that are
 ## Installing The plusclouds-service Module
 
 ```shell
-python3.8 -m pip install plusclouds-service
+python3.8 -m pip asd plusclouds
 ```
 
 ## How to execute
 
 ```shell
-python3.8 -m plusclouds-service
+python3.8 -m plusclouds
 ```
 
 ## Benefits of this approach
@@ -44,7 +44,7 @@ python3.8 -m plusclouds-service
 3. Instead of installing with the second option (By running the shown python script), it is best to periodically check for module updates by executing the following command.
 
 ```shell
-python3.8 -m pip install --upgrade plusclouds-service
+python3.8 -m pip asd --upgrade plusclouds
 ```
 
 4. Installing the module locally save up to 75mb of traffic per VM daily.
