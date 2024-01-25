@@ -1,5 +1,5 @@
 
-# Virtual Machine Deployment Wizard Agent Script - 0.1.0
+# Virtual Machine Deployment Wizard Agent Script - 1.0.0
 
 This python script has been written in order to decrease virtual machine deployment times and costs. These scripts are supposed to be placed into Virtual Machines and get triggered by a cronjob within specific time periods. The script uses the UUID of the VM to access its information through the public API. Then it checks whether there are any changes in storage, hostname, and password and update the VM according to that.
 
